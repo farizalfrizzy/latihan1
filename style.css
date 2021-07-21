@@ -1,0 +1,20 @@
+.jumbotron {
+  padding-top: 5rem;
+  background-color: rgb(178, 210, 210);
+}
+.img-thumbnail {
+  border-radius: 20px;
+}
+section {
+  padding-top: 5rem;
+}
+
+.intro-text {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5s all ease-in-out;
+}
+.intro-appear {
+  opacity: 1;
+  transform: translateY(0px);
+}
